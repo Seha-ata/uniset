@@ -1,0 +1,216 @@
+/**************************************************************************************/
+                                 /*reusable components*/
+/**************************************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'lato','arial','sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.clear-fix {
+    
+}
+/************************************************************************************/
+                                       /*header*/
+/************************************************************************************/
+header {
+
+    background-image:url(http://dsathemes.com/html/uset1.2/files//images/hero-16.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.logo {
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-top: 50px
+}
+.link ul {
+    float: right;
+}
+.link ul li {
+    display: inline-block;
+    margin-top: 50px;
+}
+.link a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 150%
+    font-weight: 200;
+}
+.media {
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 100%;
+    background-color: rgba(240, 240, 240, 0.35);
+    color: #fff;
+    border-radius: 50%
+}
+.pr-of-header {
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.pr-of-header h1 {
+    font-size: 240%
+}
+.pr-of-header p {
+    font-size: 90%
+}
+/*******************************************************************************/
+                                    /*main*/
+/*******************************************************************************/
+.pragrafe {
+    display: block;
+    font-size:90%;
+    font-weight: 300;
+}
+.icon::after{
+    font-size: 400%;
+    display: block;
+    margin-right: 20px;
+    padding: 1px;
+}
+.icon{
+    float: left;
+    font-size: 400%;
+    display: block;
+    margin-right: 20px;
+    height: 120px;
+}
+.one-of-three {
+    width: 377px;
+    margin-top: 55px
+}
+.div-one-of-three-grew {
+    background-color: #F5F5F5
+}
+.one-of-three {
+    width: 377px;
+}
+.two-of-three {
+    width: 754px;
+}
+
+.div-one-of-three-grew h3 {
+    font-size: 240%;
+    font-weight: 600
+}
+.div-one-of-three-grew p {
+    font-size: 85%;
+    font-weight: 300
+}
+.small-p {
+    color: #ACACAC;
+    font-size: 80%;
+    font-weight: 500
+}
+.big-h3 {
+    font-size: 220%;
+    font-weight: 900
+}
+.div-one-of-three img {
+    max-width: 100%;
+    height: auto;
+}
+.div-one-of-three p {
+    font-size: 80%;
+    line-height: 135%;
+}
+.one-of-one {
+    height: 400px;
+    background-image: url(http://dsathemes.com/html/uset1.2/files/images/banner-1-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.margin-20 {
+    margin-top: 20%;
+}
+.div-one-of-five-grew {
+    height: 200px;
+    background-color: #F5F5F5;
+    text-align: center
+}
+.div-one-of-five-grew img {
+    margin-top: 70%;
+    margin-left: 150%; 
+    transform: translate(-50%, -50%)
+}
+/*******************************************************************************/
+                                    /*footer*/
+/*******************************************************************************/
+footer {
+    background-color: #fff;
+} 
+footer img {
+    width: 105px;
+    height: 30px
+}
+.two-of-six {
+    width: 390px;
+}
+.font {
+    font-size: 90%;
+    font-weight: 300;
+}
+.smal-font {
+    font-size: 50%;
+    font-weight: 400;
+}
+.one-of-six {
+    width: 195px;
+    line-height: 30px
+}
+.one-of-six input {
+    height: 46px;
+    width: 290px;
+}
+/********************************************************************************/
+                                  /*buttton*/
+/********************************************************************************/
+/*main Dimensions*/
+.btn {
+    width: 100px;
+    height: auto;
+    border: 1px solid #FFEC19;
+    padding: 15px 30px;
+    border-radius: 5%;
+    text-decoration: none;
+    font-size: 110%;
+    font-weight: 300;
+}
+/*color*/
+.btnfull {
+    background-color: #FFEC19;
+    color: #000;       
+}
+.btngreen {
+    background-color: #48AF4B
+}
+.btngust {
+    border-color: #F5F5F5;
+    color: #000;
+    font-size: 120%;
+    font-weight: 400
+}
